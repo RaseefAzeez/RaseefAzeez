@@ -103,7 +103,7 @@ A self-service platform built to **reduce operational overhead by automating EC2
 * Exploring **multi-cloud deployments**
 ---
 
-### 🔹 Kubernetes & CI/CD Lab - (RaaS V2)
+### 🔹 Kubernetes & CI/CD Lab - (RaaS v2)
 
 * **Kubernetes:** Deployments, Ingress, ConfigMaps (In Progress)
 * **CI/CD:** Multi-stage GitHub Actions (Docker build & push)
