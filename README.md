@@ -1,4 +1,4 @@
-# Hi, I'm Raseef Azeez 👋
+# Hi, I'm Raseef Azeez 
 
 ### 🚀 DevOps Engineer | AWS Solutions Architect | Kubernetes | Terraform
 
@@ -6,7 +6,7 @@ Cloud Engineer with 5+ years of AWS experience, now focused on DevOps — buildi
 
 I enjoy working on systems that don’t just run — but **recover, scale, and adapt**.
 
-💡 I believe in architecting simplicity in the cloud — understanding systems by asking one “why” at a time.
+I believe in architecting simplicity in the cloud — understanding systems by asking one “why” at a time.
 
 ---
 
@@ -25,7 +25,7 @@ I enjoy working on systems that don’t just run — but **recover, scale, and a
 
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=RaseefAzeez&show_icons=true&theme=radical&hide_border=true" height="150"/>
@@ -99,7 +99,7 @@ A self-service platform built to **reduce operational overhead by automating EC2
 
 ---
 
-## ⚡ Beyond Tech
+##  Beyond Tech
 
 I believe good engineers don’t just build systems — they **anticipate failure, reduce friction, and design for resilience**.
 
