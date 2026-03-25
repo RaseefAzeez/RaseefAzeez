@@ -27,6 +27,27 @@ I believe in architecting simplicity in the cloud — understanding systems by a
 
 ---
 
+## 🛠 Tech Stack
+
+![AWS](https://img.shields.io/badge/AWS-orange?style=for-the-badge\&logo=amazon-aws)
+![Terraform](https://img.shields.io/badge/Terraform-purple?style=for-the-badge\&logo=terraform)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-blue?style=for-the-badge\&logo=kubernetes)
+![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge\&logo=docker)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-black?style=for-the-badge\&logo=github-actions)
+
+---
+
+
+##  GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=RaseefAzeez&show_icons=true&theme=radical&hide_border=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaseefAzeez&layout=compact&theme=radical&hide_border=true" height="150"/>
+</p>
+
+
+---
+
 ##  Featured Project: RaaS (Reboot as a Service)
 
 A self-service platform I built to **reduce operational overhead by automating EC2 lifecycle actions** — inspired by real-world support bottlenecks.
@@ -112,16 +133,6 @@ I document how I design, break, and improve systems to reflect real-world DevOps
 
 ---
 
-## 🛠 Tech Stack
-
-![AWS](https://img.shields.io/badge/AWS-orange?style=for-the-badge\&logo=amazon-aws)
-![Terraform](https://img.shields.io/badge/Terraform-purple?style=for-the-badge\&logo=terraform)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-blue?style=for-the-badge\&logo=kubernetes)
-![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge\&logo=docker)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-black?style=for-the-badge\&logo=github-actions)
-
----
-
 ## 📂 Featured Projects
 
 ### 🔹 AWS Serverless Web Platform
@@ -163,31 +174,17 @@ I document how I design, break, and improve systems to reflect real-world DevOps
 * Exploring cloud deployment (Oracle Cloud Free Tier)
 * Observability (Prometheus, Grafana, alerting)
 
----
-
-##  GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RaseefAzeez&show_icons=true&theme=radical&hide_border=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaseefAzeez&layout=compact&theme=radical&hide_border=true" height="150"/>
-</p>
 
 ---
-
-## Snake Graph
-
-<img src="https://raw.githubusercontent.com/RaseefAzeez/RaseefAzeez/output/github-contribution-grid-snake.svg" />
-
-## Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=RaseefAzeez&theme=radical&no-frame=true&row=1&column=6" />
-
-## Activity Graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RaseefAzeez&theme=github-dark&hide_border=true"/>
 
 ##  Beyond Tech
 
 I believe good engineers don’t just build systems — they **anticipate failure, reduce friction, and design for resilience**.
 
+---
+
+
+## Activity Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RaseefAzeez&theme=github-dark&hide_border=true"/>
 
