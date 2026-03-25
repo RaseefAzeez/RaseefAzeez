@@ -11,8 +11,8 @@ I believe in architecting simplicity in the cloud — understanding systems by a
 
 ## 🎖 Certifications
 
-<a href="[https://www.credly.com/users/raseef-a-a]" target="_blank">
-  <img src="https://img.shields.io/badge/AWS_Certified-Solutions_Architect_Associate-orange?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS SAA-C03">
+<a href="https://www.credly.com/badges/bb09b07e-814c-436f-b136-25ad12022d3d" target="_blank">
+  <img src="https://img.shields.io/badge/AWS_Certified-Solutions_Architect_Associate-orange?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Certified Solutions Architect – Associate (SAA-C03)">
 </a>
 
 ---
