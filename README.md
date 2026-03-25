@@ -2,18 +2,10 @@
 
 ## Cloud Infrastructure Engineer → DevOps → Cloud Architecture
 
-Cloud Engineer with 5+ years of AWS experience, now focused on building automated, scalable, and resilient cloud-native systems using Terraform, Kubernetes, and modern CI/CD practices.
+Cloud Engineer with 5+ years of AWS experience, focused on building automated, scalable, and resilient cloud-native systems using Terraform, Kubernetes, and modern CI/CD practices.
 
 I enjoy working on systems that don’t just run — but **recover, scale, and adapt**.
-I believe in architecting simplicity in the cloud — understanding systems by asking one **“why” at a time**.
-
----
-
-## 🎖 Certifications
-
-<a href="https://www.credly.com/badges/bb09b07e-814c-436f-b136-25ad12022d3d" target="_blank">
-  <img src="https://img.shields.io/badge/AWS_Certified-Solutions_Architect_Associate-orange?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Certified Solutions Architect – Associate (SAA-C03)">
-</a>
+I believe in architecting simplicity in the cloud — understanding systems by asking one **“why”** at a time.
 
 ---
 
@@ -61,7 +53,15 @@ I believe in architecting simplicity in the cloud — understanding systems by a
 
 ---
 
-##  Star Project: RaaS (Reboot as a Service)
+## 🎖 Certifications
+
+<a href="https://www.credly.com/badges/bb09b07e-814c-436f-b136-25ad12022d3d" target="_blank">
+  <img src="https://img.shields.io/badge/AWS_Certified-Solutions_Architect_Associate-orange?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Certified Solutions Architect – Associate (SAA-C03)">
+</a>
+
+---
+
+##  Flagship System: RaaS (Reboot as a Service)
 
 A self-service platform built to **reduce operational overhead by automating EC2 lifecycle actions**, inspired by real-world support bottlenecks.
 
@@ -80,9 +80,9 @@ A self-service platform built to **reduce operational overhead by automating EC2
 
 ###  Highlights
 
-* **Security:** Cognito authentication (JWT) + tag-based authorization (ABAC)
-* **Automation:** Terraform + GitHub Actions (OIDC, no static credentials)
-* **Impact:** Reduces operational overhead and improves response time through secure self-service automation
+- **Security:** Cognito authentication (JWT) + tag-based authorization (ABAC)
+- **Automation:** Terraform + GitHub Actions (OIDC, no static credentials)
+- **Impact:** Reduces operational overhead and improves response time through secure self-service automation
 
 ---
 
