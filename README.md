@@ -6,7 +6,7 @@ Cloud Engineer with 5+ years of AWS experience, now focused on DevOps — buildi
 
 I enjoy working on systems that don’t just run — but **recover, scale, and adapt**.
 
-I believe in architecting simplicity in the cloud — understanding systems by asking one “why” at a time.
+I believe in architecting simplicity in the cloud — understanding systems by asking one **“why”** at a time.
 
 ---
 
