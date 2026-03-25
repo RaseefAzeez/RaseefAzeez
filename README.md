@@ -96,20 +96,19 @@ A self-service platform built to **reduce operational overhead by automating EC2
 
 ---
 
-### 🔹 Kubernetes & CI/CD Lab - RaaS V2.0
-
-* **Kubernetes:** Deployments, Ingress, ConfigMaps (In Progress)
-* **CI/CD:** Multi-stage GitHub Actions (Docker build & push)
-* **IaC:** Modular Terraform (VPC, IAM, reusable modules)
-
----
-
-## 📈 Current Focus - RaaS V2.0
+## 📈 Current Focus (RaaS v2)
 
 * Containerizing **RaaS → Kubernetes** (Minikube / Kind)
 * Deepening expertise in **Observability (Prometheus & Grafana)**
 * Exploring **multi-cloud deployments**
+---
 
+### 🔹 Kubernetes & CI/CD Lab - (RaaS V2)
+
+* **Kubernetes:** Deployments, Ingress, ConfigMaps (In Progress)
+* **CI/CD:** Multi-stage GitHub Actions (Docker build & push)
+* **IaC:** Modular Terraform (VPC, IAM, reusable modules)
+  
 ---
 
 ##  Beyond Tech
