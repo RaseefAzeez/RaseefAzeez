@@ -1,4 +1,4 @@
-# Hi, I'm Raseef Azeez 👋
+# Hi, I'm Raseef Azeez 
 
 ### 🚀 DevOps Engineer | AWS | Kubernetes | Terraform | CI/CD
 
@@ -6,7 +6,7 @@ Cloud Engineer with 5+ years of AWS experience, now focused on DevOps — buildi
 
 I enjoy working on systems that don’t just run — but **recover, scale, and adapt**.
 
-💡 I believe in architecting simplicity in the cloud — understanding systems by asking one “why” at a time.
+I believe in architecting simplicity in the cloud — understanding systems by asking one “why” at a time.
 
 ---
 
@@ -15,27 +15,19 @@ I enjoy working on systems that don’t just run — but **recover, scale, and a
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/raseef-azeez)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Website-black?style=for-the-badge\&logo=google-chrome)](https://d3svccsjj104ji.cloudfront.net)
 
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RaseefAzeez&show_icons=true&theme=radical&hide_border=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaseefAzeez&layout=compact&theme=radical&hide_border=true" height="150"/>
-</p>
 
 ---
 
-## 🧠 About Me
+##  About Me
 
-* ☁️ 5+ years building on AWS
-* ⚙️ Transitioning into full-scale DevOps engineering
-* 🔁 Strong focus on **automation, recovery & system reliability**
-* 🧩 Passionate about solving **real-world operational problems through DevOps**
+*  5+ years building on AWS
+*  Transitioning into full-scale DevOps engineering
+*  Strong focus on **automation, recovery & system reliability**
+*  Passionate about solving **real-world operational problems through DevOps**
 
 ---
 
-## 🧠 Featured Project: RaaS (Reboot as a Service)
+##  Featured Project: RaaS (Reboot as a Service)
 
 A self-service platform I built to **reduce operational overhead by automating EC2 lifecycle actions** — inspired by real-world support bottlenecks.
 
@@ -43,13 +35,13 @@ A self-service platform I built to **reduce operational overhead by automating E
 
 ---
 
-### 🏗 Architecture Overview
+###  Architecture Overview
 
 ![RaaS Architecture](./architecture.png)
 
 ---
 
-### 🔍 Flow Summary
+###  Flow Summary
 
 1. User accesses the platform via **CloudFront-hosted frontend**
 2. Authenticates using **Amazon Cognito (OAuth2 / JWT)**
@@ -58,7 +50,7 @@ A self-service platform I built to **reduce operational overhead by automating E
 5. Authorization enforced using **tag-based access control (OwnerGroup)**
 6. Infrastructure managed via **Terraform + GitHub Actions (OIDC, no static credentials)**
 
-👉 Designed with a focus on **security, automation, and operational efficiency**
+ Designed with a focus on **security, automation, and operational efficiency**
 
 ---
 
@@ -76,7 +68,7 @@ A self-service platform I built to **reduce operational overhead by automating E
 * I design systems with **security (identity-first) and scalability in mind**
 * I build with a **production mindset, not just demos**
 
-👉 Deep Dive: **[https://raseefazeez.hashnode.dev/raas-reboot-as-a-service]**
+ Deep Dive: **[https://raseefazeez.hashnode.dev/raas-reboot-as-a-service]**
 
 ---
 
@@ -88,7 +80,7 @@ My cloud-hosted portfolio — built to practice real-world architecture patterns
 
 ---
 
-### 🏗 Architecture Overview
+###  Architecture Overview
 
 ![Portfolio Architecture](./portfolio-architecture.png)
 
@@ -102,7 +94,7 @@ My cloud-hosted portfolio — built to practice real-world architecture patterns
 * DynamoDB (Storage)
 * CI/CD pipeline
 
-👉 Architecture Deep Dive: **[https://raseefazeez.hashnode.dev/how-i-built-my-cloud-portfolio-using-aws-and-github-actions]**
+ Architecture Deep Dive: **[https://raseefazeez.hashnode.dev/how-i-built-my-cloud-portfolio-using-aws-and-github-actions]**
 
 ---
 
@@ -173,7 +165,28 @@ I document how I design, break, and improve systems to reflect real-world DevOps
 
 ---
 
-## ⚡ Beyond Tech
+##  GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=RaseefAzeez&show_icons=true&theme=radical&hide_border=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaseefAzeez&layout=compact&theme=radical&hide_border=true" height="150"/>
+</p>
+
+---
+
+## Snake Graph
+
+<img src="https://raw.githubusercontent.com/RaseefAzeez/RaseefAzeez/output/github-contribution-grid-snake.svg" />
+
+## Trophies
+
+<img src="https://github-profile-trophy.vercel.app/?username=RaseefAzeez&theme=radical&no-frame=true&row=1&column=6" />
+
+## Activity Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RaseefAzeez&theme=github-dark&hide_border=true"/>
+
+##  Beyond Tech
 
 I believe good engineers don’t just build systems — they **anticipate failure, reduce friction, and design for resilience**.
 
