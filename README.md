@@ -103,4 +103,13 @@ A self-service platform built to **reduce operational overhead by automating EC2
 
 I believe good engineers don’t just build systems — they **anticipate failure, reduce friction, and design for resilience**.
 
+---
+
+## 📈 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RaseefAzeez&theme=github-dark&hide_border=true"/>
+</p>
+
+
 
