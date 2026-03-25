@@ -96,7 +96,7 @@ A self-service platform built to **reduce operational overhead by automating EC2
 
 ---
 
-### 🔹 Kubernetes & CI/CD Lab
+### 🔹 Kubernetes & CI/CD Lab - RaaS V2.0
 
 * **Kubernetes:** Deployments, Ingress, ConfigMaps (In Progress)
 * **CI/CD:** Multi-stage GitHub Actions (Docker build & push)
@@ -104,7 +104,7 @@ A self-service platform built to **reduce operational overhead by automating EC2
 
 ---
 
-## 📈 Current Focus
+## 📈 Current Focus - RaaS V2.0
 
 * Containerizing **RaaS → Kubernetes** (Minikube / Kind)
 * Deepening expertise in **Observability (Prometheus & Grafana)**
