@@ -39,11 +39,25 @@ I believe in architecting simplicity in the cloud — understanding systems by a
 
 ## 🛠 Tech Stack
 
+### ☁️ Cloud & DevOps
+
 ![AWS](https://img.shields.io/badge/AWS-orange?style=for-the-badge\&logo=amazon-aws)
 ![Terraform](https://img.shields.io/badge/Terraform-purple?style=for-the-badge\&logo=terraform)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-blue?style=for-the-badge\&logo=kubernetes)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge\&logo=docker)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-black?style=for-the-badge\&logo=github-actions)
+
+### ⚙️ Serverless & Backend
+
+![AWS Lambda](https://img.shields.io/badge/Lambda-orange?style=for-the-badge\&logo=aws-lambda)
+![API Gateway](https://img.shields.io/badge/API_Gateway-orange?style=for-the-badge\&logo=amazon-api-gateway)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-blue?style=for-the-badge\&logo=amazon-dynamodb)
+
+### 📊 Observability
+
+![CloudWatch](https://img.shields.io/badge/CloudWatch-orange?style=for-the-badge\&logo=amazon-cloudwatch)
+![Prometheus](https://img.shields.io/badge/Prometheus-orange?style=for-the-badge\&logo=prometheus)
+![Grafana](https://img.shields.io/badge/Grafana-orange?style=for-the-badge\&logo=grafana)
 
 ---
 
