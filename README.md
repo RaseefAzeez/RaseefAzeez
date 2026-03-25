@@ -69,7 +69,7 @@ A self-service platform built to **reduce operational overhead by automating EC2
 
 * **Security:** Cognito authentication (JWT) + tag-based authorization (ABAC)
 * **Automation:** Terraform + GitHub Actions (OIDC, no static credentials)
-* **Impact:** Reduces repetitive support operations and improves response time through self-service automation
+* **Impact:** Reduces operational overhead and improves response time through secure self-service automation
 
 ---
 
