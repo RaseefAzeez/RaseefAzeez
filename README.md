@@ -1,6 +1,6 @@
 # Hi, I'm Raseef Azeez 
 
-### 🚀 DevOps Engineer | AWS Solutions Architect | Kubernetes | Terraform
+###  DevOps Engineer | AWS Solutions Architect | Kubernetes | Terraform
 
 Cloud Engineer with 5+ years of AWS experience, now focused on DevOps — building **automated, scalable, and resilient cloud-native systems**.
 
@@ -48,7 +48,7 @@ I believe in architecting simplicity in the cloud — understanding systems by a
 
 ---
 
-## 🚀 Star Project: RaaS (Reboot as a Service)
+##  Star Project: RaaS (Reboot as a Service)
 
 A self-service platform built to **reduce operational overhead by automating EC2 lifecycle actions**, inspired by real-world support bottlenecks.
 
@@ -57,7 +57,7 @@ A self-service platform built to **reduce operational overhead by automating EC2
 
 ---
 
-### 🏗 Architecture
+###  Architecture
 
 ![RaaS Architecture](./architecture.png)
 
@@ -65,7 +65,7 @@ A self-service platform built to **reduce operational overhead by automating EC2
 
 ---
 
-### 🔍 Highlights
+###  Highlights
 
 * **Security:** Cognito authentication (JWT) + tag-based authorization (ABAC)
 * **Automation:** Terraform + GitHub Actions (OIDC, no static credentials)
