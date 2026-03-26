@@ -1,11 +1,12 @@
 # Hi, I'm Raseef Azeez
-###  Cloud Infrastructure Engineer → DevOps → Cloud Architecture
+
+### Cloud Infrastructure Engineer → DevOps → Cloud Architecture
 
 Cloud Engineer with 5+ years of AWS experience, focused on building automated, scalable, and resilient cloud-native systems using Terraform, Kubernetes, and modern CI/CD practices.
 
 I enjoy working on systems that don’t just run — but **recover, scale, and adapt**.
 
-I believe in architecting simplicity in the cloud — understanding systems by asking one **“why”** at a time.
+I believe in **architecting simplicity in the cloud** — breaking down complex systems by asking one **“why”** at a time, and designing solutions that are easy to operate, reason about, and evolve.
 
 ---
 
@@ -16,7 +17,18 @@ I believe in architecting simplicity in the cloud — understanding systems by a
 
 ---
 
-##  GitHub Stats
+## Architecting Simplicity in the Cloud
+
+My approach to cloud engineering is centered around:
+
+* **Clarity over complexity** — systems should be easy to understand and debug
+* **Automation by default** — reduce manual effort through repeatable workflows
+* **Resilience by design** — build systems that fail gracefully and recover quickly
+* **Progressive evolution** — start simple, then scale and optimize
+
+---
+
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=RaseefAzeez&show_icons=true&theme=radical&hide_border=true" height="150"/>
@@ -61,16 +73,16 @@ I believe in architecting simplicity in the cloud — understanding systems by a
 
 ---
 
-##  Flagship System: RaaS (Reboot as a Service)
+## Flagship System: RaaS (Reboot as a Service)
 
 A self-service platform built to **reduce operational overhead by automating EC2 lifecycle actions**, inspired by real-world support bottlenecks.
 
 🔗 [Project Link](https://d1l62wn91r29l3.cloudfront.net)
 📝 [Deep Dive Article](https://raseefazeez.hashnode.dev/raas-reboot-as-a-service)
 
---- 
+---
 
-###  Architecture
+### Architecture
 
 ![RaaS Architecture](./architecture.png)
 
@@ -78,11 +90,37 @@ A self-service platform built to **reduce operational overhead by automating EC2
 
 ---
 
-###  Highlights
+### Design Evolution (Simplicity in Practice)
 
-- **Security:** Cognito authentication (JWT) + tag-based authorization (ABAC)
-- **Automation:** Terraform + GitHub Actions (OIDC, no static credentials)
-- **Impact:** Reduces operational overhead and improves response time through secure self-service automation
+**V1 (Serverless)**
+S3 → API Gateway → Lambda → DynamoDB
+
+✔ Fast to build
+✔ Minimal operational overhead
+
+**Challenges**
+
+* Cold starts affecting latency
+* Distributed debugging complexity
+* Limited control over execution environment
+
+---
+
+**V2 (In Progress — Kubernetes)**
+
+Terraform → Kubernetes → CI/CD
+
+✔ Greater control and flexibility
+✔ Improved observability and debugging
+✔ Portable and scalable architecture
+
+---
+
+### Highlights
+
+* **Security:** Cognito authentication (JWT) + tag-based authorization (ABAC)
+* **Automation:** Terraform + GitHub Actions (OIDC, no static credentials)
+* **Impact:** Reduces operational overhead through secure, self-service automation
 
 ---
 
@@ -98,22 +136,23 @@ A self-service platform built to **reduce operational overhead by automating EC2
 
 ## 📈 Current Focus (RaaS v2)
 
-* Containerizing **RaaS → Kubernetes** (Minikube / Kind)
+* Containerizing **RaaS → Kubernetes** (Minikube / KIND)
 * Deepening expertise in **Observability (Prometheus & Grafana)**
-* Exploring **multi-cloud deployments**
+* Exploring **multi-cloud deployment patterns**
+
 ---
 
-### 🔹 Kubernetes & CI/CD Lab - (RaaS v2)
+### 🔹 Kubernetes & CI/CD Lab (RaaS v2)
 
 * **Kubernetes:** Deployments, Ingress, ConfigMaps (In Progress)
-* **CI/CD:** Multi-stage GitHub Actions (Docker build & push)
+* **CI/CD:** Multi-stage GitHub Actions (Docker build & deploy)
 * **IaC:** Modular Terraform (VPC, IAM, reusable modules)
-  
+
 ---
 
-##  Beyond Tech
+## Beyond Tech
 
-I believe good engineers don’t just build systems — they **anticipate failure, reduce friction, and design for resilience**.
+I believe good engineers don’t just build systems — they **reduce complexity, anticipate failure, and design for clarity**.
 
 ---
 
@@ -122,6 +161,3 @@ I believe good engineers don’t just build systems — they **anticipate failur
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=RaseefAzeez&theme=github-dark&hide_border=true"/>
 </p>
-
-
-
