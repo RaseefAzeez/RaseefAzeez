@@ -28,7 +28,7 @@ My approach to cloud engineering is centered around:
 
 ---
 
-## GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=RaseefAzeez&show_icons=true&theme=radical&hide_border=true" height="150"/>
@@ -75,52 +75,120 @@ My approach to cloud engineering is centered around:
 
 ## Flagship System: RaaS (Reboot as a Service)
 
-A self-service platform built to **reduce operational overhead by automating EC2 lifecycle actions**, inspired by real-world support bottlenecks.
+RaaS is a self-service platform designed to **reduce operational overhead by enabling users to independently troubleshoot and recover access to their EC2 instances or workspaces**.
 
-🔗 [Project Link](https://d1l62wn91r29l3.cloudfront.net)
-📝 [Deep Dive Article](https://raseefazeez.hashnode.dev/raas-reboot-as-a-service)
+Instead of relying on support teams for routine access issues, users can:
+
+* Reboot their assigned instances
+* Check instance status
+* Recover access without raising tickets
 
 ---
 
-### Architecture
+### 🎯 Why RaaS?
+
+In real-world environments, a large portion of support tickets are generated due to:
+
+* Users unable to SSH / RDP into instances
+* Workspace access issues
+* Delays in support response
+
+RaaS shifts this model:
+
+```text
+Support-driven operations → Self-service automation
+```
+
+📉 Result:
+**Reduces support ticket volume by ~20–25% (realistic impact)**
+
+---
+
+### 🏗 Architecture
 
 ![RaaS Architecture](./architecture.png)
 
-*Currently replatforming RaaS from Serverless → Kubernetes (RaaS v2)*
+---
+
+### ⚙️ How It Works
+
+```text
+User → Cognito Login → S3 (Frontend via CloudFront)
+         ↓
+     API Gateway (JWT Authorizer)
+         ↓
+        Lambda
+         ↓
+   EC2 Actions (Reboot / Status / Access Check)
+```
 
 ---
 
-### Design Evolution (Simplicity in Practice)
+### 🔐 Identity & Access Design
 
-**V1 (Serverless)**
-S3 → API Gateway → Lambda → DynamoDB
+#### Authentication
 
-✔ Fast to build
-✔ Minimal operational overhead
+* **Amazon Cognito (JWT-based authentication)**
 
-**Challenges**
+#### Identity Management
 
-* Cold starts affecting latency
-* Distributed debugging complexity
-* Limited control over execution environment
+* **IAM Identity Center (SSO)** with AWS Organizations
+* Centralized user and group control
+
+#### Authorization (ABAC)
+
+* Attribute-Based Access Control using **EC2 instance tags**
+* Users can only access instances mapped to their group
+
+```text
+User Group → Tag Match → Allowed Instance Access
+```
+
+✔ No hardcoded permissions
+✔ Scalable multi-user model
+✔ Clean separation of access
 
 ---
 
-**V2 (In Progress — Kubernetes)**
+### Design Principles (Simplicity in Practice)
 
-Terraform → Kubernetes → CI/CD
-
-✔ Greater control and flexibility
-✔ Improved observability and debugging
-✔ Portable and scalable architecture
+* **No database required** → Stateless, lightweight design
+* **Minimal services** → S3 + API Gateway + Lambda + Cognito
+* **Policy-driven access** → ABAC over static roles
+* **Self-service first** → Reduce operational dependency
 
 ---
 
-### Highlights
+### ⚡ Key Highlights
 
-* **Security:** Cognito authentication (JWT) + tag-based authorization (ABAC)
+* **Frontend:** S3 + CloudFront
+* **Backend:** API Gateway + Lambda
+* **Auth:** Cognito JWT
+* **Access Control:** IAM Identity Center + ABAC
 * **Automation:** Terraform + GitHub Actions (OIDC, no static credentials)
-* **Impact:** Reduces operational overhead through secure, self-service automation
+
+---
+
+### 📈 Impact
+
+* 🔻 Reduced support tickets by **20–25%**
+* ⚡ Faster issue resolution
+* 🔐 Improved security model
+* 🧩 Simplified architecture
+
+---
+
+### 🔄 Evolution (RaaS v2 — In Progress)
+
+```text
+Serverless → Kubernetes (Containerized Platform)
+```
+
+Goal:
+
+* Better observability
+* More control
+* Platform scalability
 
 ---
 
@@ -136,16 +204,17 @@ Terraform → Kubernetes → CI/CD
 
 ## 📈 Current Focus (RaaS v2)
 
-* Containerizing **RaaS → Kubernetes** (Minikube / KIND)
-* Deepening expertise in **Observability (Prometheus & Grafana)**
-* Exploring **multi-cloud deployment patterns**
+* Containerizing **RaaS → Kubernetes (KIND / k3s)**
+* Building **CI/CD pipelines (Docker → K8s deployment)**
+* Deepening **Observability (Prometheus & Grafana)**
+* Exploring **multi-cloud patterns**
 
 ---
 
 ### 🔹 Kubernetes & CI/CD Lab (RaaS v2)
 
 * **Kubernetes:** Deployments, Ingress, ConfigMaps (In Progress)
-* **CI/CD:** Multi-stage GitHub Actions (Docker build & deploy)
+* **CI/CD:** Multi-stage GitHub Actions (Build → Push → Deploy)
 * **IaC:** Modular Terraform (VPC, IAM, reusable modules)
 
 ---
@@ -156,8 +225,9 @@ I believe good engineers don’t just build systems — they **reduce complexity
 
 ---
 
-## 📈 Contribution Activity
+## Contribution Activity
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=RaseefAzeez&theme=github-dark&hide_border=true"/>
 </p>
+
