@@ -1,8 +1,16 @@
 # Hi, I'm Raseef Azeez
 
-### Cloud Infrastructure Engineer → DevOps → Cloud Architecture
+## Cloud Infrastructure & DevOps Engineer | AWS | Terraform | Kubernetes
 
-Cloud Engineer with 5+ years of AWS experience, focused on building automated, scalable, and resilient cloud-native systems using Terraform, Kubernetes, and modern CI/CD practices.
+I work with cloud infrastructure, automation and the engineering practices that make systems easier to build, operate and maintain.
+
+I have 11 years of overall IT experience, including 5+ years working with AWS Cloud Infrastructure. Over the years, my work has evolved from infrastructure support and IAM into cloud infrastructure and DevOps.
+
+I'm particularly interested in understanding how different pieces of a system fit together — from identity and networking to infrastructure provisioning, deployment pipelines and application workloads.
+
+I also enjoy building things outside my day-to-day work. Some of my ideas start with a simple question: Can this be done in a better way?
+
+That's how my flagship project, RaaS, started.
 
 I enjoy working on systems that don’t just run — but **recover, scale, and adapt**.
 
