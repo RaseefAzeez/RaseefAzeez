@@ -81,7 +81,64 @@ My approach to cloud engineering is centered around:
 
 ---
 
-## Flagship System: RaaS (Reboot as a Service)
+## Flagship System: RaaS 2.0 (Reboot as a Service)
+
+## 🚀 RaaS 2.0 – Reboot as a Service
+
+RaaS 2.0 is the evolution of my original serverless self-service cloud operations platform into an asynchronous, containerized architecture running on Kubernetes.
+
+The goal is to separate request handling from job execution, improve observability, and explore how cloud operations can be designed as independently managed services.
+
+### 🎯 Architecture
+
+RaaS 2.0 follows a three-layer architecture:
+
+- **API Layer:** Accepts requests, validates operations, and submits jobs for asynchronous processing.
+- **Redis Queue Layer:** Uses Redis and BullMQ to manage and coordinate background jobs between services.
+- **Worker Layer:** Consumes queued jobs and executes the requested cloud operations independently of the API service.
+
+### 🏗 Architecture Diagram
+
+![RaaS 2.0 Architecture](./architecture.png)
+
+### ⚙️ Technology Stack
+
+- **Containerisation:** Docker
+- **Orchestration:** Kubernetes (Kind)
+- **Job Queue:** Redis and BullMQ
+- **Deployment Management:** Helm
+- **Monitoring:** Prometheus
+- **Visualisation:** Grafana
+- **CI/CD:** GitHub Actions
+
+### 🔍 Engineering Focus
+
+- Decoupling API request handling from background execution.
+- Implementing asynchronous job processing.
+- Managing service communication and discovery in Kubernetes.
+- Handling Redis and API availability failures.
+- Troubleshooting pod readiness, restarts, and resource constraints.
+- Monitoring workloads through Prometheus and Grafana.
+
+### 📊 Observability
+
+Prometheus and Grafana are used to monitor the Kubernetes environment, including:
+
+- Pod and deployment availability.
+- CPU and memory utilisation.
+- Container restarts and resource constraints.
+- Desired versus available replicas.
+
+### 🔄 Evolution
+
+RaaS 2.0 builds on the original serverless implementation, introducing independent API and worker services with a Redis-backed job queue.
+
+**From synchronous serverless execution to asynchronous, containerized cloud operations.**
+
+🔗 **GitHub:** https://github.com/RaseefAzeez/raas-v2
+
+
+## Raas 1.0
 
 RaaS is a self-service platform designed to **reduce operational overhead by enabling users to independently troubleshoot and recover access to their EC2 instances or workspaces**.
 
