@@ -114,7 +114,7 @@ Support-driven operations → Self-service automation
 
 ### 🏗 Architecture
 
-![RaaS Architecture](./RaaS 1.0 Serverless Architecture Diagram.png)
+![RaaS 1.0 Serverless Architecture](./RaaS%201.0%20Serverless%20Architecture%20Diagram.png)
 
 ---
 
