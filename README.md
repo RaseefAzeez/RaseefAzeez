@@ -81,9 +81,9 @@ My approach to cloud engineering is centered around:
 
 ---
 
-## Flagship System: RaaS 2.0 (Reboot as a Service)
+## 🚀 Flagship System: RaaS 2.0 – Reboot as a Service
 
-## 🚀 RaaS 2.0 – Reboot as a Service
+### An Asynchronous Containerised Cloud Operations Platform
 
 RaaS 2.0 is the evolution of my original serverless self-service cloud operations platform into an asynchronous, containerized architecture running on Kubernetes.
 
@@ -99,7 +99,7 @@ RaaS 2.0 follows a three-layer architecture:
 
 ### 🏗 Architecture Diagram
 
-![RaaS 2.0 Architecture](./architecture.png)
+![RaaS 2.0 Local Architecture](./RaaS%202.0%20Local%20Architecture%20Diagram.png)
 
 ### ⚙️ Technology Stack
 
@@ -138,7 +138,7 @@ RaaS 2.0 builds on the original serverless implementation, introducing independe
 🔗 **GitHub:** https://github.com/RaseefAzeez/raas-v2
 
 
-## Raas 1.0
+## 🔹 RaaS 1.0 – Reboot as a Service | A Serverless Platform
 
 RaaS is a self-service platform designed to **reduce operational overhead by enabling users to independently troubleshoot and recover access to their EC2 instances or workspaces**.
 
