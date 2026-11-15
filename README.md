@@ -241,19 +241,7 @@ User Group → Tag Match → Allowed Instance Access
 * 🔐 Improved security model
 * 🧩 Simplified architecture
 
----
-
-### 🔄 Evolution (RaaS v2 — In Progress)
-
-```text
-Serverless → Kubernetes (Containerized Platform)
-```
-
-Goal:
-
-* Better observability
-* More control
-* Platform scalability
+🔗 **GitHub:** https://github.com/RaseefAzeez/RaaS
 
 ---
 
